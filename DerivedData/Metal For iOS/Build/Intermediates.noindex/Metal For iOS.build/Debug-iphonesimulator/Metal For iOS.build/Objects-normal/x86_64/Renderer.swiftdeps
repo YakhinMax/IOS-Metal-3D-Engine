@@ -1,0 +1,553 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Renderer"
+provides-nominal:
+- "13Metal_For_iOS8RendererC"
+provides-member:
+- ["13Metal_For_iOS8RendererC", ""]
+provides-dynamic-lookup:
+- "buildCommandQueue"
+- "buildPipeline"
+- "buildVertexBuffer"
+- "camera"
+- "commandQueue"
+- "device"
+- "metalView"
+- "pipelineState"
+- "render"
+- "setCamera"
+- "vertexBuffer"
+depends-top-level:
+- !private "*"
+- "AssignmentPrecedence"
+- "Float"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "MTKView"
+- "MTLBuffer"
+- "MTLCommandQueue"
+- !private "MTLCreateSystemDefaultDevice"
+- "MTLDevice"
+- !private "MTLRenderPipelineDescriptor"
+- "MTLRenderPipelineState"
+- !private "MTLVertexDescriptor"
+- !private "MemoryLayout"
+- !private "NSError"
+- "Renderer"
+- "SIMD3"
+- !private "StringLiteralType"
+- "Vertex"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["SK", "count"]
+- !private ["So15CALayerDelegateP", "currentDrawable"]
+- !private ["So15CALayerDelegateP", "currentRenderPassDescriptor"]
+- !private ["So15CALayerDelegateP", "device"]
+- !private ["s7CVarArgP", "attributes"]
+- !private ["s7CVarArgP", "bufferIndex"]
+- !private ["s7CVarArgP", "colorAttachments"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "currentDrawable"]
+- !private ["s7CVarArgP", "currentRenderPassDescriptor"]
+- !private ["s7CVarArgP", "device"]
+- !private ["s7CVarArgP", "format"]
+- !private ["s7CVarArgP", "fragmentFunction"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layouts"]
+- !private ["s7CVarArgP", "offset"]
+- !private ["s7CVarArgP", "pixelFormat"]
+- !private ["s7CVarArgP", "stride"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "vertexDescriptor"]
+- !private ["s7CVarArgP", "vertexFunction"]
+- !private ["Sl", "count"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "attributes"]
+- !private ["s28CustomDebugStringConvertibleP", "bufferIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "colorAttachments"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "currentDrawable"]
+- !private ["s28CustomDebugStringConvertibleP", "currentRenderPassDescriptor"]
+- !private ["s28CustomDebugStringConvertibleP", "device"]
+- !private ["s28CustomDebugStringConvertibleP", "format"]
+- !private ["s28CustomDebugStringConvertibleP", "fragmentFunction"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layouts"]
+- !private ["s28CustomDebugStringConvertibleP", "makeBuffer"]
+- !private ["s28CustomDebugStringConvertibleP", "makeCommandBuffer"]
+- !private ["s28CustomDebugStringConvertibleP", "makeCommandQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "makeDefaultLibrary"]
+- !private ["s28CustomDebugStringConvertibleP", "makeRenderPipelineState"]
+- !private ["s28CustomDebugStringConvertibleP", "offset"]
+- !private ["s28CustomDebugStringConvertibleP", "pixelFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "stride"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "vertexDescriptor"]
+- !private ["s28CustomDebugStringConvertibleP", "vertexFunction"]
+- !private ["s17CustomReflectableP", "bufferIndex"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "format"]
+- !private ["s17CustomReflectableP", "makeBuffer"]
+- !private ["s17CustomReflectableP", "makeCommandBuffer"]
+- !private ["s17CustomReflectableP", "makeCommandQueue"]
+- !private ["s17CustomReflectableP", "makeDefaultLibrary"]
+- !private ["s17CustomReflectableP", "makeRenderPipelineState"]
+- !private ["s17CustomReflectableP", "offset"]
+- !private ["s17CustomReflectableP", "pixelFormat"]
+- !private ["s17CustomReflectableP", "stride"]
+- !private ["s23CustomStringConvertibleP", "attributes"]
+- !private ["s23CustomStringConvertibleP", "bufferIndex"]
+- !private ["s23CustomStringConvertibleP", "colorAttachments"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "currentDrawable"]
+- !private ["s23CustomStringConvertibleP", "currentRenderPassDescriptor"]
+- !private ["s23CustomStringConvertibleP", "device"]
+- !private ["s23CustomStringConvertibleP", "format"]
+- !private ["s23CustomStringConvertibleP", "fragmentFunction"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layouts"]
+- !private ["s23CustomStringConvertibleP", "offset"]
+- !private ["s23CustomStringConvertibleP", "pixelFormat"]
+- !private ["s23CustomStringConvertibleP", "stride"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "vertexDescriptor"]
+- !private ["s23CustomStringConvertibleP", "vertexFunction"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["Se", "bufferIndex"]
+- !private ["Se", "count"]
+- !private ["Se", "format"]
+- ["Se", "init"]
+- !private ["Se", "makeBuffer"]
+- !private ["Se", "makeCommandBuffer"]
+- !private ["Se", "makeCommandQueue"]
+- !private ["Se", "makeDefaultLibrary"]
+- !private ["Se", "makeRenderPipelineState"]
+- !private ["Se", "offset"]
+- !private ["Se", "pixelFormat"]
+- !private ["Se", "stride"]
+- !private ["SE", "bufferIndex"]
+- !private ["SE", "count"]
+- !private ["SE", "format"]
+- ["SE", "init"]
+- !private ["SE", "makeBuffer"]
+- !private ["SE", "makeCommandBuffer"]
+- !private ["SE", "makeCommandQueue"]
+- !private ["SE", "makeDefaultLibrary"]
+- !private ["SE", "makeRenderPipelineState"]
+- !private ["SE", "offset"]
+- !private ["SE", "pixelFormat"]
+- !private ["SE", "stride"]
+- !private ["SQ", "attributes"]
+- !private ["SQ", "bgra8Unorm"]
+- !private ["SQ", "bufferIndex"]
+- !private ["SQ", "colorAttachments"]
+- !private ["SQ", "count"]
+- !private ["SQ", "currentDrawable"]
+- !private ["SQ", "currentRenderPassDescriptor"]
+- !private ["SQ", "device"]
+- !private ["SQ", "float3"]
+- !private ["SQ", "format"]
+- !private ["SQ", "fragmentFunction"]
+- ["SQ", "init"]
+- !private ["SQ", "layouts"]
+- !private ["SQ", "makeBuffer"]
+- !private ["SQ", "makeCommandBuffer"]
+- !private ["SQ", "makeCommandQueue"]
+- !private ["SQ", "makeDefaultLibrary"]
+- !private ["SQ", "makeRenderPipelineState"]
+- !private ["SQ", "offset"]
+- !private ["SQ", "pixelFormat"]
+- !private ["SQ", "stride"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "triangleStrip"]
+- !private ["SQ", "vertexDescriptor"]
+- !private ["SQ", "vertexFunction"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "bufferIndex"]
+- !private ["s23ExpressibleByNilLiteralP", "format"]
+- !private ["s23ExpressibleByNilLiteralP", "makeBuffer"]
+- !private ["s23ExpressibleByNilLiteralP", "makeCommandBuffer"]
+- !private ["s23ExpressibleByNilLiteralP", "makeCommandQueue"]
+- !private ["s23ExpressibleByNilLiteralP", "makeDefaultLibrary"]
+- !private ["s23ExpressibleByNilLiteralP", "makeRenderPipelineState"]
+- !private ["s23ExpressibleByNilLiteralP", "offset"]
+- !private ["s23ExpressibleByNilLiteralP", "pixelFormat"]
+- !private ["s23ExpressibleByNilLiteralP", "stride"]
+- !private ["SH", "attributes"]
+- !private ["SH", "bgra8Unorm"]
+- !private ["SH", "bufferIndex"]
+- !private ["SH", "colorAttachments"]
+- !private ["SH", "count"]
+- !private ["SH", "currentDrawable"]
+- !private ["SH", "currentRenderPassDescriptor"]
+- !private ["SH", "device"]
+- !private ["SH", "float3"]
+- !private ["SH", "format"]
+- !private ["SH", "fragmentFunction"]
+- ["SH", "init"]
+- !private ["SH", "layouts"]
+- !private ["SH", "makeBuffer"]
+- !private ["SH", "makeCommandBuffer"]
+- !private ["SH", "makeCommandQueue"]
+- !private ["SH", "makeDefaultLibrary"]
+- !private ["SH", "makeRenderPipelineState"]
+- !private ["SH", "offset"]
+- !private ["SH", "pixelFormat"]
+- !private ["SH", "stride"]
+- !private ["SH", "subscript"]
+- !private ["SH", "triangleStrip"]
+- !private ["SH", "vertexDescriptor"]
+- !private ["SH", "vertexFunction"]
+- !private ["So7MTKViewC", "currentDrawable"]
+- !private ["So7MTKViewC", "currentRenderPassDescriptor"]
+- !private ["So7MTKViewC", "device"]
+- !private ["So16MTLCommandBufferP", "commit"]
+- !private ["So16MTLCommandBufferP", "makeRenderCommandEncoder"]
+- !private ["So16MTLCommandBufferP", "present"]
+- !private ["So17MTLCommandEncoderP", "drawPrimitives"]
+- !private ["So17MTLCommandEncoderP", "endEncoding"]
+- !private ["So17MTLCommandEncoderP", "setFragmentBytes"]
+- !private ["So17MTLCommandEncoderP", "setRenderPipelineState"]
+- !private ["So17MTLCommandEncoderP", "setVertexBuffer"]
+- !private ["So15MTLCommandQueueP", "makeCommandBuffer"]
+- !private ["So9MTLDeviceP", "makeBuffer"]
+- !private ["So9MTLDeviceP", "makeCommandQueue"]
+- !private ["So9MTLDeviceP", "makeDefaultLibrary"]
+- !private ["So9MTLDeviceP", "makeRenderPipelineState"]
+- !private ["So10MTLLibraryP", "makeFunction"]
+- !private ["So14MTLPixelFormatV", "bgra8Unorm"]
+- !private ["So16MTLPrimitiveTypeV", "triangleStrip"]
+- !private ["So23MTLRenderCommandEncoderP", "drawPrimitives"]
+- !private ["So23MTLRenderCommandEncoderP", "endEncoding"]
+- !private ["So23MTLRenderCommandEncoderP", "setFragmentBytes"]
+- !private ["So23MTLRenderCommandEncoderP", "setRenderPipelineState"]
+- !private ["So23MTLRenderCommandEncoderP", "setVertexBuffer"]
+- !private ["So42MTLRenderPipelineColorAttachmentDescriptorC", "pixelFormat"]
+- !private ["So47MTLRenderPipelineColorAttachmentDescriptorArrayC", "subscript"]
+- !private ["So27MTLRenderPipelineDescriptorC", "colorAttachments"]
+- !private ["So27MTLRenderPipelineDescriptorC", "fragmentFunction"]
+- !private ["So27MTLRenderPipelineDescriptorC", "init"]
+- !private ["So27MTLRenderPipelineDescriptorC", "vertexDescriptor"]
+- !private ["So27MTLRenderPipelineDescriptorC", "vertexFunction"]
+- !private ["So28MTLVertexAttributeDescriptorC", "bufferIndex"]
+- !private ["So28MTLVertexAttributeDescriptorC", "format"]
+- !private ["So28MTLVertexAttributeDescriptorC", "offset"]
+- !private ["So33MTLVertexAttributeDescriptorArrayC", "subscript"]
+- !private ["So31MTLVertexBufferLayoutDescriptorC", "stride"]
+- !private ["So36MTLVertexBufferLayoutDescriptorArrayC", "subscript"]
+- !private ["So19MTLVertexDescriptorC", "attributes"]
+- !private ["So19MTLVertexDescriptorC", "init"]
+- !private ["So19MTLVertexDescriptorC", "layouts"]
+- !private ["So15MTLVertexFormatV", "float3"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s12MemoryLayoutO", "stride"]
+- !private ["SM", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["So8NSCodingP", "currentDrawable"]
+- !private ["So8NSCodingP", "currentRenderPassDescriptor"]
+- !private ["So8NSCodingP", "device"]
+- !private ["So9NSCopyingP", "attributes"]
+- !private ["So9NSCopyingP", "bufferIndex"]
+- !private ["So9NSCopyingP", "colorAttachments"]
+- !private ["So9NSCopyingP", "format"]
+- !private ["So9NSCopyingP", "fragmentFunction"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "layouts"]
+- !private ["So9NSCopyingP", "offset"]
+- !private ["So9NSCopyingP", "pixelFormat"]
+- !private ["So9NSCopyingP", "stride"]
+- !private ["So9NSCopyingP", "vertexDescriptor"]
+- !private ["So9NSCopyingP", "vertexFunction"]
+- !private ["So8NSObjectC", "attributes"]
+- !private ["So8NSObjectC", "bufferIndex"]
+- !private ["So8NSObjectC", "colorAttachments"]
+- !private ["So8NSObjectC", "currentDrawable"]
+- !private ["So8NSObjectC", "currentRenderPassDescriptor"]
+- !private ["So8NSObjectC", "device"]
+- !private ["So8NSObjectC", "format"]
+- !private ["So8NSObjectC", "fragmentFunction"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "layouts"]
+- !private ["So8NSObjectC", "offset"]
+- !private ["So8NSObjectC", "pixelFormat"]
+- !private ["So8NSObjectC", "stride"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectC", "vertexDescriptor"]
+- !private ["So8NSObjectC", "vertexFunction"]
+- !private ["So8NSObjectP", "attributes"]
+- !private ["So8NSObjectP", "bufferIndex"]
+- !private ["So8NSObjectP", "colorAttachments"]
+- !private ["So8NSObjectP", "commit"]
+- !private ["So8NSObjectP", "currentDrawable"]
+- !private ["So8NSObjectP", "currentRenderPassDescriptor"]
+- !private ["So8NSObjectP", "device"]
+- !private ["So8NSObjectP", "drawPrimitives"]
+- !private ["So8NSObjectP", "endEncoding"]
+- !private ["So8NSObjectP", "format"]
+- !private ["So8NSObjectP", "fragmentFunction"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "layouts"]
+- !private ["So8NSObjectP", "makeBuffer"]
+- !private ["So8NSObjectP", "makeCommandBuffer"]
+- !private ["So8NSObjectP", "makeCommandQueue"]
+- !private ["So8NSObjectP", "makeDefaultLibrary"]
+- !private ["So8NSObjectP", "makeFunction"]
+- !private ["So8NSObjectP", "makeRenderCommandEncoder"]
+- !private ["So8NSObjectP", "makeRenderPipelineState"]
+- !private ["So8NSObjectP", "offset"]
+- !private ["So8NSObjectP", "pixelFormat"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "setFragmentBytes"]
+- !private ["So8NSObjectP", "setRenderPipelineState"]
+- !private ["So8NSObjectP", "setVertexBuffer"]
+- !private ["So8NSObjectP", "stride"]
+- !private ["So8NSObjectP", "subscript"]
+- !private ["So8NSObjectP", "vertexDescriptor"]
+- !private ["So8NSObjectP", "vertexFunction"]
+- !private ["Sq", "bufferIndex"]
+- !private ["Sq", "format"]
+- !private ["Sq", "makeBuffer"]
+- !private ["Sq", "makeCommandBuffer"]
+- !private ["Sq", "makeCommandQueue"]
+- !private ["Sq", "makeDefaultLibrary"]
+- !private ["Sq", "makeRenderPipelineState"]
+- !private ["Sq", "offset"]
+- !private ["Sq", "pixelFormat"]
+- !private ["Sq", "stride"]
+- !private ["Sk", "count"]
+- !private ["Sm", "count"]
+- !private ["SY", "bgra8Unorm"]
+- !private ["SY", "float3"]
+- !private ["SY", "triangleStrip"]
+- ["13Metal_For_iOS8RendererC", "Float"]
+- ["13Metal_For_iOS8RendererC", "MTKView"]
+- ["13Metal_For_iOS8RendererC", "MTLBuffer"]
+- ["13Metal_For_iOS8RendererC", "MTLCommandQueue"]
+- !private ["13Metal_For_iOS8RendererC", "MTLCreateSystemDefaultDevice"]
+- ["13Metal_For_iOS8RendererC", "MTLDevice"]
+- !private ["13Metal_For_iOS8RendererC", "MTLRenderPipelineDescriptor"]
+- ["13Metal_For_iOS8RendererC", "MTLRenderPipelineState"]
+- !private ["13Metal_For_iOS8RendererC", "MTLVertexDescriptor"]
+- !private ["13Metal_For_iOS8RendererC", "MemoryLayout"]
+- !private ["13Metal_For_iOS8RendererC", "NSError"]
+- ["13Metal_For_iOS8RendererC", "SIMD3"]
+- ["13Metal_For_iOS8RendererC", "Vertex"]
+- ["13Metal_For_iOS8RendererC", "buildCommandQueue"]
+- ["13Metal_For_iOS8RendererC", "buildPipeline"]
+- ["13Metal_For_iOS8RendererC", "buildVertexBuffer"]
+- ["13Metal_For_iOS8RendererC", "camera"]
+- ["13Metal_For_iOS8RendererC", "commandQueue"]
+- ["13Metal_For_iOS8RendererC", "deinit"]
+- ["13Metal_For_iOS8RendererC", "device"]
+- ["13Metal_For_iOS8RendererC", "init"]
+- ["13Metal_For_iOS8RendererC", "metalView"]
+- ["13Metal_For_iOS8RendererC", "pipelineState"]
+- ["13Metal_For_iOS8RendererC", "render"]
+- ["13Metal_For_iOS8RendererC", "setCamera"]
+- ["13Metal_For_iOS8RendererC", "vertexBuffer"]
+- ["s4SIMDP", "init"]
+- ["s5SIMD3V", "init"]
+- ["s11SIMDStorageP", "init"]
+- !private ["ST", "count"]
+- !private ["So29UIAccessibilityIdentificationP", "currentDrawable"]
+- !private ["So29UIAccessibilityIdentificationP", "currentRenderPassDescriptor"]
+- !private ["So29UIAccessibilityIdentificationP", "device"]
+- !private ["So12UIAppearanceP", "currentDrawable"]
+- !private ["So12UIAppearanceP", "currentRenderPassDescriptor"]
+- !private ["So12UIAppearanceP", "device"]
+- !private ["So21UIAppearanceContainerP", "currentDrawable"]
+- !private ["So21UIAppearanceContainerP", "currentRenderPassDescriptor"]
+- !private ["So21UIAppearanceContainerP", "device"]
+- !private ["So17UICoordinateSpaceP", "currentDrawable"]
+- !private ["So17UICoordinateSpaceP", "currentRenderPassDescriptor"]
+- !private ["So17UICoordinateSpaceP", "device"]
+- !private ["So13UIDynamicItemP", "currentDrawable"]
+- !private ["So13UIDynamicItemP", "currentRenderPassDescriptor"]
+- !private ["So13UIDynamicItemP", "device"]
+- !private ["So18UIFocusEnvironmentP", "currentDrawable"]
+- !private ["So18UIFocusEnvironmentP", "currentRenderPassDescriptor"]
+- !private ["So18UIFocusEnvironmentP", "device"]
+- !private ["So11UIFocusItemP", "currentDrawable"]
+- !private ["So11UIFocusItemP", "currentRenderPassDescriptor"]
+- !private ["So11UIFocusItemP", "device"]
+- !private ["So20UIFocusItemContainerP", "currentDrawable"]
+- !private ["So20UIFocusItemContainerP", "currentRenderPassDescriptor"]
+- !private ["So20UIFocusItemContainerP", "device"]
+- !private ["So24UILargeContentViewerItemP", "currentDrawable"]
+- !private ["So24UILargeContentViewerItemP", "currentRenderPassDescriptor"]
+- !private ["So24UILargeContentViewerItemP", "device"]
+- !private ["So30UIPasteConfigurationSupportingP", "currentDrawable"]
+- !private ["So30UIPasteConfigurationSupportingP", "currentRenderPassDescriptor"]
+- !private ["So30UIPasteConfigurationSupportingP", "device"]
+- !private ["So11UIResponderC", "currentDrawable"]
+- !private ["So11UIResponderC", "currentRenderPassDescriptor"]
+- !private ["So11UIResponderC", "device"]
+- !private ["So30UIResponderStandardEditActionsP", "currentDrawable"]
+- !private ["So30UIResponderStandardEditActionsP", "currentRenderPassDescriptor"]
+- !private ["So30UIResponderStandardEditActionsP", "device"]
+- !private ["So18UITraitEnvironmentP", "currentDrawable"]
+- !private ["So18UITraitEnvironmentP", "currentRenderPassDescriptor"]
+- !private ["So18UITraitEnvironmentP", "device"]
+- !private ["So23UIUserActivityRestoringP", "currentDrawable"]
+- !private ["So23UIUserActivityRestoringP", "currentRenderPassDescriptor"]
+- !private ["So23UIUserActivityRestoringP", "device"]
+- !private ["So6UIViewC", "currentDrawable"]
+- !private ["So6UIViewC", "currentRenderPassDescriptor"]
+- !private ["So6UIViewC", "device"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bufferIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "colorAttachments"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentDrawable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentRenderPassDescriptor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "device"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "format"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fragmentFunction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layouts"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "offset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pixelFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stride"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "vertexDescriptor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "vertexFunction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "attributes"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bufferIndex"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "colorAttachments"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentDrawable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentRenderPassDescriptor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "device"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "format"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fragmentFunction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layouts"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "offset"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pixelFormat"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stride"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subscript"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "vertexDescriptor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "vertexFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "bufferIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "format"]
+- !private ["s21_ObjectiveCBridgeableP", "makeBuffer"]
+- !private ["s21_ObjectiveCBridgeableP", "makeCommandBuffer"]
+- !private ["s21_ObjectiveCBridgeableP", "makeCommandQueue"]
+- !private ["s21_ObjectiveCBridgeableP", "makeDefaultLibrary"]
+- !private ["s21_ObjectiveCBridgeableP", "makeRenderPipelineState"]
+- !private ["s21_ObjectiveCBridgeableP", "offset"]
+- !private ["s21_ObjectiveCBridgeableP", "pixelFormat"]
+- !private ["s21_ObjectiveCBridgeableP", "stride"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "currentDrawable"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "currentRenderPassDescriptor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "device"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "So7MTKViewC"
+- !private "So16MTLCommandBufferP"
+- !private "So17MTLCommandEncoderP"
+- !private "So15MTLCommandQueueP"
+- !private "So9MTLDeviceP"
+- !private "So10MTLLibraryP"
+- !private "So14MTLPixelFormatV"
+- !private "So16MTLPrimitiveTypeV"
+- !private "So23MTLRenderCommandEncoderP"
+- !private "So42MTLRenderPipelineColorAttachmentDescriptorC"
+- !private "So47MTLRenderPipelineColorAttachmentDescriptorArrayC"
+- !private "So27MTLRenderPipelineDescriptorC"
+- !private "So28MTLVertexAttributeDescriptorC"
+- !private "So33MTLVertexAttributeDescriptorArrayC"
+- !private "So31MTLVertexBufferLayoutDescriptorC"
+- !private "So36MTLVertexBufferLayoutDescriptorArrayC"
+- !private "So19MTLVertexDescriptorC"
+- !private "So15MTLVertexFormatV"
+- !private "s12MemoryLayoutO"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "13Metal_For_iOS8RendererC"
+- "s4SIMDP"
+- "s5SIMD3V"
+- "s11SIMDStorageP"
+- !private "ST"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MetalKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MetalKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "967dd24c5f116759a98927dd26c2c8ae"

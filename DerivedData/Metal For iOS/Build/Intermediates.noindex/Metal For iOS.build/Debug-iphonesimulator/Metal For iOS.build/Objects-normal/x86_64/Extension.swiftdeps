@@ -1,0 +1,340 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "13Metal_For_iOS14ViewControllerC"
+provides-member:
+- ["13Metal_For_iOS14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "draw"
+- "mtkView"
+depends-top-level:
+- !private "/"
+- "CGSize"
+- !private "Float"
+- "MTKView"
+- "MTKViewDelegate"
+- "ViewController"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SB", "init"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "Float"]
+- ["s7CVarArgP", "draw"]
+- ["s7CVarArgP", "drawInMTKView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "model"]
+- ["s7CVarArgP", "mtkView"]
+- !private ["s7CVarArgP", "renderer"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "buildVertexBuffer"]
+- !private ["s28CustomDebugStringConvertibleP", "changeScale"]
+- ["s28CustomDebugStringConvertibleP", "draw"]
+- ["s28CustomDebugStringConvertibleP", "drawInMTKView"]
+- !private ["s28CustomDebugStringConvertibleP", "getCamera"]
+- !private ["s28CustomDebugStringConvertibleP", "getVertices"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "model"]
+- ["s28CustomDebugStringConvertibleP", "mtkView"]
+- !private ["s28CustomDebugStringConvertibleP", "render"]
+- !private ["s28CustomDebugStringConvertibleP", "renderer"]
+- !private ["s28CustomDebugStringConvertibleP", "setCamera"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s17CustomReflectableP", "buildVertexBuffer"]
+- !private ["s17CustomReflectableP", "changeScale"]
+- !private ["s17CustomReflectableP", "getCamera"]
+- !private ["s17CustomReflectableP", "getVertices"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "render"]
+- !private ["s17CustomReflectableP", "setCamera"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- ["s23CustomStringConvertibleP", "draw"]
+- ["s23CustomStringConvertibleP", "drawInMTKView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "model"]
+- ["s23CustomStringConvertibleP", "mtkView"]
+- !private ["s23CustomStringConvertibleP", "renderer"]
+- !private ["Se", "buildVertexBuffer"]
+- !private ["Se", "changeScale"]
+- !private ["Se", "getCamera"]
+- !private ["Se", "getVertices"]
+- !private ["Se", "height"]
+- !private ["Se", "init"]
+- !private ["Se", "render"]
+- !private ["Se", "setCamera"]
+- !private ["Se", "width"]
+- !private ["SE", "buildVertexBuffer"]
+- !private ["SE", "changeScale"]
+- !private ["SE", "getCamera"]
+- !private ["SE", "getVertices"]
+- !private ["SE", "height"]
+- !private ["SE", "init"]
+- !private ["SE", "render"]
+- !private ["SE", "setCamera"]
+- !private ["SE", "width"]
+- !private ["SQ", "Float"]
+- !private ["SQ", "buildVertexBuffer"]
+- !private ["SQ", "changeScale"]
+- ["SQ", "draw"]
+- ["SQ", "drawInMTKView"]
+- !private ["SQ", "getCamera"]
+- !private ["SQ", "getVertices"]
+- !private ["SQ", "height"]
+- !private ["SQ", "init"]
+- !private ["SQ", "model"]
+- ["SQ", "mtkView"]
+- !private ["SQ", "render"]
+- !private ["SQ", "renderer"]
+- !private ["SQ", "setCamera"]
+- !private ["SQ", "width"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "buildVertexBuffer"]
+- !private ["s23ExpressibleByNilLiteralP", "changeScale"]
+- !private ["s23ExpressibleByNilLiteralP", "getCamera"]
+- !private ["s23ExpressibleByNilLiteralP", "getVertices"]
+- !private ["s23ExpressibleByNilLiteralP", "render"]
+- !private ["s23ExpressibleByNilLiteralP", "setCamera"]
+- !private ["Sf", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "Float"]
+- !private ["SH", "buildVertexBuffer"]
+- !private ["SH", "changeScale"]
+- ["SH", "draw"]
+- ["SH", "drawInMTKView"]
+- !private ["SH", "getCamera"]
+- !private ["SH", "getVertices"]
+- !private ["SH", "init"]
+- !private ["SH", "model"]
+- ["SH", "mtkView"]
+- !private ["SH", "render"]
+- !private ["SH", "renderer"]
+- !private ["SH", "setCamera"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So15MTKViewDelegateP", "Float"]
+- ["So15MTKViewDelegateP", ""]
+- ["So15MTKViewDelegateP", "draw"]
+- ["So15MTKViewDelegateP", "drawInMTKView"]
+- !private ["So15MTKViewDelegateP", "model"]
+- ["So15MTKViewDelegateP", "mtkView"]
+- !private ["So15MTKViewDelegateP", "renderer"]
+- !private ["13Metal_For_iOS5ModelC", "changeScale"]
+- !private ["13Metal_For_iOS5ModelC", "getCamera"]
+- !private ["13Metal_For_iOS5ModelC", "getVertices"]
+- !private ["So8NSCodingP", "Float"]
+- ["So8NSCodingP", "draw"]
+- ["So8NSCodingP", "drawInMTKView"]
+- !private ["So8NSCodingP", "model"]
+- ["So8NSCodingP", "mtkView"]
+- !private ["So8NSCodingP", "renderer"]
+- !private ["So26NSExtensionRequestHandlingP", "Float"]
+- ["So26NSExtensionRequestHandlingP", "draw"]
+- ["So26NSExtensionRequestHandlingP", "drawInMTKView"]
+- !private ["So26NSExtensionRequestHandlingP", "model"]
+- ["So26NSExtensionRequestHandlingP", "mtkView"]
+- !private ["So26NSExtensionRequestHandlingP", "renderer"]
+- ["So8NSObjectC", "CGSize"]
+- !private ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "MTKView"]
+- ["So8NSObjectC", "draw"]
+- ["So8NSObjectC", "drawInMTKView"]
+- !private ["So8NSObjectC", "model"]
+- ["So8NSObjectC", "mtkView"]
+- !private ["So8NSObjectC", "renderer"]
+- !private ["So8NSObjectP", "Float"]
+- ["So8NSObjectP", "draw"]
+- ["So8NSObjectP", "drawInMTKView"]
+- !private ["So8NSObjectP", "model"]
+- ["So8NSObjectP", "mtkView"]
+- !private ["So8NSObjectP", "renderer"]
+- !private ["Sj", "init"]
+- !private ["Sq", "buildVertexBuffer"]
+- !private ["Sq", "changeScale"]
+- !private ["Sq", "getCamera"]
+- !private ["Sq", "getVertices"]
+- !private ["Sq", "render"]
+- !private ["Sq", "setCamera"]
+- !private ["13Metal_For_iOS8RendererC", "buildVertexBuffer"]
+- !private ["13Metal_For_iOS8RendererC", "render"]
+- !private ["13Metal_For_iOS8RendererC", "setCamera"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIAppearanceContainerP", "Float"]
+- ["So21UIAppearanceContainerP", "draw"]
+- ["So21UIAppearanceContainerP", "drawInMTKView"]
+- !private ["So21UIAppearanceContainerP", "model"]
+- ["So21UIAppearanceContainerP", "mtkView"]
+- !private ["So21UIAppearanceContainerP", "renderer"]
+- !private ["So18UIContentContainerP", "Float"]
+- ["So18UIContentContainerP", "draw"]
+- ["So18UIContentContainerP", "drawInMTKView"]
+- !private ["So18UIContentContainerP", "model"]
+- ["So18UIContentContainerP", "mtkView"]
+- !private ["So18UIContentContainerP", "renderer"]
+- !private ["So18UIFocusEnvironmentP", "Float"]
+- ["So18UIFocusEnvironmentP", "draw"]
+- ["So18UIFocusEnvironmentP", "drawInMTKView"]
+- !private ["So18UIFocusEnvironmentP", "model"]
+- ["So18UIFocusEnvironmentP", "mtkView"]
+- !private ["So18UIFocusEnvironmentP", "renderer"]
+- !private ["So30UIPasteConfigurationSupportingP", "Float"]
+- ["So30UIPasteConfigurationSupportingP", "draw"]
+- ["So30UIPasteConfigurationSupportingP", "drawInMTKView"]
+- !private ["So30UIPasteConfigurationSupportingP", "model"]
+- ["So30UIPasteConfigurationSupportingP", "mtkView"]
+- !private ["So30UIPasteConfigurationSupportingP", "renderer"]
+- ["So11UIResponderC", "CGSize"]
+- !private ["So11UIResponderC", "Float"]
+- ["So11UIResponderC", "MTKView"]
+- ["So11UIResponderC", "draw"]
+- ["So11UIResponderC", "drawInMTKView"]
+- !private ["So11UIResponderC", "model"]
+- ["So11UIResponderC", "mtkView"]
+- !private ["So11UIResponderC", "renderer"]
+- !private ["So30UIResponderStandardEditActionsP", "Float"]
+- ["So30UIResponderStandardEditActionsP", "draw"]
+- ["So30UIResponderStandardEditActionsP", "drawInMTKView"]
+- !private ["So30UIResponderStandardEditActionsP", "model"]
+- ["So30UIResponderStandardEditActionsP", "mtkView"]
+- !private ["So30UIResponderStandardEditActionsP", "renderer"]
+- !private ["So16UIStateRestoringP", "Float"]
+- ["So16UIStateRestoringP", "draw"]
+- ["So16UIStateRestoringP", "drawInMTKView"]
+- !private ["So16UIStateRestoringP", "model"]
+- ["So16UIStateRestoringP", "mtkView"]
+- !private ["So16UIStateRestoringP", "renderer"]
+- !private ["So18UITraitEnvironmentP", "Float"]
+- ["So18UITraitEnvironmentP", "draw"]
+- ["So18UITraitEnvironmentP", "drawInMTKView"]
+- !private ["So18UITraitEnvironmentP", "model"]
+- ["So18UITraitEnvironmentP", "mtkView"]
+- !private ["So18UITraitEnvironmentP", "renderer"]
+- !private ["So23UIUserActivityRestoringP", "Float"]
+- ["So23UIUserActivityRestoringP", "draw"]
+- ["So23UIUserActivityRestoringP", "drawInMTKView"]
+- !private ["So23UIUserActivityRestoringP", "model"]
+- ["So23UIUserActivityRestoringP", "mtkView"]
+- !private ["So23UIUserActivityRestoringP", "renderer"]
+- ["So16UIViewControllerC", "CGSize"]
+- !private ["So16UIViewControllerC", "Float"]
+- ["So16UIViewControllerC", "MTKView"]
+- ["So16UIViewControllerC", "draw"]
+- ["So16UIViewControllerC", "drawInMTKView"]
+- !private ["So16UIViewControllerC", "model"]
+- ["So16UIViewControllerC", "mtkView"]
+- !private ["So16UIViewControllerC", "renderer"]
+- ["13Metal_For_iOS14ViewControllerC", "CGSize"]
+- !private ["13Metal_For_iOS14ViewControllerC", "Float"]
+- ["13Metal_For_iOS14ViewControllerC", "MTKView"]
+- ["13Metal_For_iOS14ViewControllerC", "deinit"]
+- ["13Metal_For_iOS14ViewControllerC", "draw"]
+- ["13Metal_For_iOS14ViewControllerC", "drawInMTKView"]
+- !private ["13Metal_For_iOS14ViewControllerC", "model"]
+- ["13Metal_For_iOS14ViewControllerC", "mtkView"]
+- !private ["13Metal_For_iOS14ViewControllerC", "renderer"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "height"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "draw"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "drawInMTKView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "model"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mtkView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "renderer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Float"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "draw"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "drawInMTKView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "model"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mtkView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "renderer"]
+- !private ["s21_ObjectiveCBridgeableP", "buildVertexBuffer"]
+- !private ["s21_ObjectiveCBridgeableP", "changeScale"]
+- !private ["s21_ObjectiveCBridgeableP", "getCamera"]
+- !private ["s21_ObjectiveCBridgeableP", "getVertices"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "render"]
+- !private ["s21_ObjectiveCBridgeableP", "setCamera"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SB"
+- !private "So6CGSizeV"
+- "s7CVarArgP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "Sf"
+- !private "SF"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- "So15MTKViewDelegateP"
+- !private "13Metal_For_iOS5ModelC"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "Sq"
+- !private "13Metal_For_iOS8RendererC"
+- !private "s10SIMDScalarP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "13Metal_For_iOS14ViewControllerC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MetalKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e919e4f1a643deeec9178b2f488c78ae"
